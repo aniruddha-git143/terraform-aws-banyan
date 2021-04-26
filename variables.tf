@@ -71,7 +71,7 @@ variable "api_server" {
 variable "ssh_key_name" {
   type        = string
   description = "Name of an SSH key stored in AWS to allow management access"
-  default     = ""
+  default     = "banyan-test"
 }
 
 variable "ami_id" {
@@ -161,7 +161,7 @@ variable "groups_by_userinfo" {
 variable "name_prefix" {
   type        = string
   description = "String to be added in front of all AWS object names"
-  default     = "banyan"
+  default     = "redseal"
 }
 
 variable "max_instance_lifetime" {
